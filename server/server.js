@@ -11,7 +11,8 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000' }));app.use(express.json());
+app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000' }));
+app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
