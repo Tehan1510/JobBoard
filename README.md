@@ -1,4 +1,3 @@
-```markdown
 # JobBoard
 
 A full-stack job board platform built with the **MERN stack** (MongoDB, Express, React, Node.js) - connecting employers with job seekers.
