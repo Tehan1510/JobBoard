@@ -241,7 +241,7 @@ const EmployerDashboard = () => {
                   <p className="text-sm text-gray-600 mb-3 line-clamp-2">{app.coverLetter}</p>
 
                   <a
-                    href={`http://localhost:5000/${app.resumeUrl}`}
+                    href={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/${app.resumeUrl}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 text-sm hover:underline flex items-center space-x-1 mb-3"

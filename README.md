@@ -45,7 +45,7 @@ A full-stack job board platform built with the **MERN stack** (MongoDB, Express,
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/jobboard.git
+git clone https://github.com/Tehan1510/JobBoard.git
 cd jobboard
 ```
 
